@@ -4,16 +4,21 @@
       "name": "Dexter Hardy",
       "email": "dexter.hardy@ntegral.com",
       "url": "http://www.ntegral.com"
+    },
+    {
+      "name": "Frederik Wegner",
+      "email": "onlyknoppas@gmail.com",
+      "url": "https://github.com/7Z0nE"
     }
   ],
-  "name": "@ntegral/nestjs-sentry",
+  "name": "@onlyknoppas/nestjs-sentry",
   "version": "3.0.7",
   "description": "Provides an injectable sentry.io client to provide enterprise logging nestjs modules",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ntegral/nestjs-sentry"
+    "url": "git+https://github.com/7Z0nE/nestjs-sentry"
   },
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
@@ -29,7 +34,7 @@
     "nestjs",
     "sentry.io"
   ],
-  "author": "Dexter Hardy",
+  "author": "Frederik Wegner",
   "license": "ISC",
   "peerDependencies": {
     "@nestjs/common": "^9.0.4",
